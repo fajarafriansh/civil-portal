@@ -1,7 +1,7 @@
 # Civil Portal
 [![GitHub license](https://img.shields.io/badge/license-GNU%20v3.0-green.svg)](https://github.com/fajarafriansh/civil-portal/blob/master/LICENSE)
 ![Author](https://img.shields.io/badge/author-%40fajarafriansh-blue.svg)
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Ffajarafriansh%2Fcivilportal%2F)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Ffajarafriansh%2Fcivil-portal%2F)
 
 Wordpress Child Theme for Magazine O Theme. This theme is what I use for my website https://civilportal.ga. If you are interested in using it please clone.
 
