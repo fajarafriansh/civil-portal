@@ -5,3 +5,4 @@ Wordpress Child Theme for Magazine O Theme. This theme is what I use for my webs
 Let's make it easy! Just download this theme, use it on your wordpress project. Don't forget to download Magazine O first (https://srd.wordpress.org/themes/magazine-o/)
 
 # License
+https://github.com/fajarafriansh/civil-portal/blob/master/LICENSE
