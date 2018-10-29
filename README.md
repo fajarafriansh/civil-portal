@@ -25,4 +25,4 @@ For demo, [click here](https://civilportal.ga)
 ## Changelogs
 
 ## License
-[GNU v3.0](https://github.com/fajarafriansh/civil-portal/blob/master/LICENSE)
+This wordpress theme license under [GNU GPL v3.0](https://github.com/fajarafriansh/civil-portal/blob/master/LICENSE)
