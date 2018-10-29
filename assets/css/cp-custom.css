@@ -1134,18 +1134,18 @@ a.btn-lg{
 	-moz-transition: all 0.5s ease-out;
 	-webkit-transition all 0.5s ease-out;
 }
-.block-layout-e .post-grid .thumbnail:hover::after{
+.block-layout-e .post-grid .thumbnail:hover::after {
 	background: rgba(0, 0, 0, 0);
 }
 
-.block-layout-e .post-grid:hover .thumbnail::after{
+.block-layout-e .post-grid:hover .thumbnail::after {
 	background: rgba(0, 0, 0, 0.65);
 }
 
 /*	sidebar
 =============================*/
 
-.sidebar .widget-title{
+.sidebar .widget-title {
 	margin:0 0 25px 0
 }
 .sidebar .widget-title h3{
