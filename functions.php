@@ -36,6 +36,7 @@ function remove_magazine_o_css() {
 	wp_enqueue_style('civil-portal-custom');
     wp_register_style('civil-portal-responsive', get_stylesheet_directory_uri() . '/assets/css/cp-responsive.css', '1.0.1', true );
     wp_enqueue_style('civil-portal-responsive');
+    // Preloader
     wp_register_style('civil-portal-preloader', get_stylesheet_directory_uri() . '/assets/css/cp-preloader.css', '1.0.1', true );
     wp_enqueue_style('civil-portal-preloader');
 }
