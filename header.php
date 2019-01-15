@@ -24,7 +24,7 @@
 	<!-- Preloader -->
 	<div class="loader-wrapper">
 		<div class="loader">
-			<div class="container">
+			<div class="loader-container">
 				<div class="box1"></div>
 				<div class="box2"></div>
 				<div class="box3"></div>
