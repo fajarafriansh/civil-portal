@@ -24,8 +24,13 @@
 	<!-- Preloader -->
 	<div class="loader-wrapper">
 		<div class="loader">
-			<span></span>
-			<span></span>
+			<div class="container">
+				<div class="box1"></div>
+				<div class="box2"></div>
+				<div class="box3"></div>
+			</div>
+			<!-- <span></span>
+			<span></span> -->
 			<!-- <dir class="cube1"></dir>
 			<div class="cube2"></div> -->
 		</div>
