@@ -205,7 +205,7 @@ article a:hover {
     line-height: 0.7rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 0 0 60px;
+    margin: 0 10px 60px 10px;
     z-index: 2;
     position: relative;
     text-align: center;
@@ -220,20 +220,45 @@ article a:hover {
 .share-buttons li {
     height: auto;
     flex: 0 1 auto;
-    width: calc(25% - 1px);
-    margin-right: 1px;
+    width: calc(20% - 3px);
+    margin-right: 3px;
+}
+
+.share-buttons li:first-child {
+    width: calc(20% - 3px);
+    margin-right: 3px;
 }
 
 .share-buttons li:last-child {
-    width: calc(25% - 1px);
+    width: calc(20% - 3px);
     margin-right: 0;
 }
 
 .share-buttons svg {
-    fill: #fff;
     margin-right: 5px;
     width: 16px;
     height: 16px;
+}
+
+.share-buttons span {
+	position: relative;
+	bottom: 3px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #555;
+}
+
+.share-buttons span.sep {
+	position: relative;
+	bottom: 1px;
+	font-size: 20px;
+	color: lightgrey;
+	font-weight: 200;
+	margin: 0 5px 0 2px;
+}
+
+.share-icon svg {
+	fill: #555;
 }
 
 .share-googleplus svg {
@@ -241,39 +266,82 @@ article a:hover {
     height: 16px;
 }
 
-.share-buttons a {
+.share-buttons a,
+.share-buttons div {
     display: block;
     padding: 12px 12px 9px;
     text-align: center;
 }
 
-.share-buttons li:first-child a {
-    border-radius: 3px 0 0 3px;
+.share-buttons li a,
+.share-buttons li div {
+	border-width: 2px;
+	border-style: solid;
+    border-radius: 3px;
 }
 
-.share-buttons li:last-child a {
-    border-radius: 0 3px 3px 0;
+.share-icon {
+	background: #fff;
+	border: 2px solid lightgrey;
 }
 
 .share-twitter	{
-    background: #1da1f2;
+    background: #fff;
+    border-color: #1da1f2;
 }
 
+.share-twitter svg {
+	fill: #1da1f2;
+}
+
+.share-buttons a.share-twitter:hover {
+	background: #1da1f2;
+}
 
 .share-facebook	{
-    background: #3b5998;
+    background: #fff;
+    border-color: #3b5998;
 }
 
-.share-googleplus	{
-    background: #db4437;
+.share-facebook svg {
+	fill: #3b5998;
 }
 
-.share-pinterest	{
-    background: #b5071a;
+.share-buttons a.share-facebook:hover {
+	background: #3b5998;
+}
+
+.share-googleplus {
+	background: #fff;
+    border-color: #db4437;
+}
+
+.share-googleplus svg {
+    fill: #db4437;
+}
+
+.share-buttons a.share-googleplus:hover {
+	background: #db4437;
+}
+
+.share-pinterest {
+	background: #fff;
+    border-color: #b5071a;
+}
+
+.share-pinterest svg {
+    fill: #b5071a;
+}
+
+.share-buttons a.share-pinterest:hover {
+	background: #b5071a;
+}
+
+.share-buttons a:hover svg {
+	fill: #fff;
 }
 
 .share-buttons a:hover {
-	background: #3b3b3b;
 	-webkit-transition: background-color 150ms linear;
     -ms-transition: background-color 150ms linear;
     transition: all 150ms linear;
