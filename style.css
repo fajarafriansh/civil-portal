@@ -257,6 +257,12 @@ article a:hover {
 	margin: 0 5px 0 2px;
 }
 
+@media (max-width: 1024px) {
+	.share-buttons span {
+		display: none;
+	}
+}
+
 .share-icon svg {
 	fill: #555;
 }
